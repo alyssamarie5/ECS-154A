@@ -1,0 +1,22 @@
+//bcd.circ
+// SOP's of outputs
+
+a = w1 + w3 + ~w2 w0 + w2 w0
+b = ~w2 + ~w1 ~w0 + w1 w0
+c = ~w1 + w0 + w2
+d = w3 + ~w2 ~w0 + ~w2 w1 + w1 ~w0 + w2 ~w1 w0
+e = w1 ~w0 + ~w2 w0
+f = w3 + w2 ~w0 + ~w1 ~w0 + w2 ~w1
+g = w3 + w2 ~w1 + ~w2 w1 + w1 ~w0
+
+//Working correct SOP's
+//minimized circuit 
+
+a = ~w1 ~w3 + w2 + w1 w3 + w0
+b = ~w1 + ~w2 ~w3 + w2 w3
+c = ~w2 + w3 + w1
+d = ~w1 ~w3 + ~w1 w2 + w2 ~w3 + w1 ~w2 w3 + w0
+e = ~w1 ~w3 + w2 ~w3
+f = ~w2 ~w3 + w1 ~w2 + w1 ~w3 + w0
+g = ~w1 w2 + w1 ~w2 + w1 ~w3 + w0
+
